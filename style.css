@@ -109,8 +109,16 @@ html  , body{
 }
 
 
+
+
 table{
     width: 100%;
+}
+
+table tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .active{
