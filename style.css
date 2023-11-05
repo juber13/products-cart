@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@100;200;300;400&display=swap');
+
+html  , body{
+   margin: 0;
+   padding: 0;
+   font-family: monospace;
+   box-sizing: border-box;
+   font-family: 'Inter', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   background: #484747;
+   color: #fff;
+}
+
+.wrapper{
+    width: 60%;
+    margin: 100px auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.heading{
+    text-align: center;
+    font-size:1.2rem;
+    text-transform: uppercase;
+}
+
+#products{
+    padding: 1rem;
+    border: 3px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+}
+#products-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 300px;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #636060;
+    padding: 0.3rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btns button{
+    margin: 0 3px;
+    padding: 0.3rem 0.8rem;
+    border: none;
+    cursor: pointer;
+    background:tomato;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+.carts{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 1rem;
+    border: 3px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 330px;
+    border-radius: 20px;
+    /* width: 300px;
+    height: 300px; */
+    /* border: 2px solid #ddd; */
+}
+
+.carts .product{
+    width: 100%;
+}
+
+
+
+#cart-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.total-amount{
+    width: 100%;
+    background: #ddd;
+    padding: 5px;
+    display: none;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    /* margin-left: 10px; */
+}
+
+
+table{
+    width: 100%;
+}
+
+.active{
+    display: block;
+}
+
+.empty-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.remove{
+    display: none;
+}
+
+.fa-solid{
+  font-size: 2rem;
+}
+
+.total-amount{
+
+}
